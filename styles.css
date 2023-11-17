@@ -22,6 +22,10 @@ p{
     margin: 0;
 }
 
+h1{
+    font-size: 24px;
+}
+
 .first-second{
     display: flex;
     width: calc(2*(100%/3));
