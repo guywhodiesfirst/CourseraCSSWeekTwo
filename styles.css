@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Arial';
+    font-family: 'Varela Round';
 }
 
 .header{
@@ -29,10 +29,10 @@ p{
 
 .block {
     flex: 1;
-    height: 200px; 
+    height: 180px; 
     border: 3px solid black;
     background-color: gray;
-    margin: 5px; 
+    margin: 15px; 
     box-sizing: border-box;
     overflow-y: scroll;
 }
@@ -49,7 +49,7 @@ p{
 .block-title{
     overflow: hidden;
     box-sizing: border-box;
-    height: 20px;
+    height: 28px;
     width: 35%;
     padding-left: 8px;
     padding-right: 8px;
@@ -57,9 +57,9 @@ p{
     border-top: 0px;
     border-right: 0px;
     text-align: center;
-    text-justify: center;
     font-weight: 700;
-    font-size: 11px;
+    font-size: 12px;
+    line-height: 28px;
 }
 
 .title-first{
@@ -82,7 +82,7 @@ p{
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .container{
         display: flex;
         flex-direction: column;
@@ -92,7 +92,7 @@ p{
     }
 }
 
-@media screen and (max-width: 480px)
+@media screen and (max-width: 768px)
 {
     .block{
         height: 100px;
